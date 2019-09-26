@@ -7,7 +7,11 @@
     "placementId": {
       "type": "string",
       "description": "An ID which identifies the placement selling the impression"
+    },
+    "publisherId": {
+        "type": "string",
+        "description": "ID the represents the publisher the FAN adserver"
     }
   },
-  "required": ["placementId"]
+  "required": ["placementId", "publisherId"]
 }
